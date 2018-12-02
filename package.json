@@ -1,10 +1,10 @@
 {
-  "name": "Test",
-  "description": "Test",
+  "name": "ayylmaoBot",
+  "description": "ayylmaoBot",
   "version": "0.0.0",
-  "main": "bot.js",
+  "main": "ayylmaoBot",
   "scripts": {
-    "start": "node bot.js"
+    "start": "ayylmaoBot"
   },
   "dependencies": {
     "discord.js": "11.1.0",
