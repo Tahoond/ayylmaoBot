@@ -6,10 +6,16 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'hello') {
+    	message.reply('sup');
   	}
 });
 
-// THIS  MUST  BE  THIS  WAY
+});
+
+client.on('message', message => {if (message.content === '?roblox') {message.reply('minecraft is better');
+  	}
+});
+
+
 client.login(process.env.BOT_TOKEN);
