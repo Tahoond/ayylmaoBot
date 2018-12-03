@@ -13,13 +13,4 @@ client.on('message', message => {
 });
 
 
-});
-
-client.on('message', message => {
-    if (message.content === '?ayylmaoBot') {
-    	message.reply('I have no point in my life becouse i am a test bot.');
-  	}
-});
-
-
 client.login(process.env.BOT_TOKEN);
