@@ -22,10 +22,11 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'piet') {
-    	message.reply('zwarte piet');
+    if (message.content === 'joke') {
+    	message.reply('lol');
   	}
 });
+
 
 
 
