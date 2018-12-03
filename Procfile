@@ -1,1 +1,1 @@
-worker: node ayylmaoBot
+worker: node bot.js  
