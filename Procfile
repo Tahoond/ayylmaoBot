@@ -1,1 +1,1 @@
-worker: ayylmaoBot
+worker: node ayylmaoBot
