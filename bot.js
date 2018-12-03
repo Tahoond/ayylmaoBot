@@ -15,6 +15,7 @@ client.on('message', message => {
     if (message.content === '?discord') {
     	message.reply('Add me, theunemans#9256');
   	}
+});
 
 
 client.login(process.env.BOT_TOKEN);
