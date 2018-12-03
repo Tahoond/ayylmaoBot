@@ -11,13 +11,6 @@ client.on('message', message => {
     	message.reply('add me on discord, theunemans#9256');
   	}
 
-    });
-
-    client.on('message', message => {
-    if (message.content === 'hello') {message.reply('sup');
-  	}
-});
-
 
 
 client.login(process.env.BOT_TOKEN);
