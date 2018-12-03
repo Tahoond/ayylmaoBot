@@ -11,6 +11,7 @@ client.on('message', message => {
     	message.reply('add me on discord, theunemans#9256');
   	}
 });
+
 });
 
 client.on('message', message => {
