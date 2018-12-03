@@ -13,7 +13,9 @@ client.on('message', message => {
 
 });
 
-client.on('message', message => {if (message.content === '?roblox') {message.reply('minecraft is better');
+client.on('message', message => {
+    if (message.content === '?roblox') {
+    	message.reply('minecraft is better');
   	}
 });
 
