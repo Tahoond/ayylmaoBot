@@ -10,6 +10,7 @@ client.on('message', message => {
     	message.reply('sup');
   	}
 });
+
 });
 
 client.on('message', message => {
