@@ -10,6 +10,7 @@ client.on('message', message => {
     	message.reply('sup');
   	}
 });
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
