@@ -6,8 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'hey') {
-    	message.reply('suop');
+    if (message.content === '?ayylmaobot') {
+    	message.reply('suop mate');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === '?discord') {
+    	message.reply('add me on discord, theunemans#9256');
   	}
 });
 
