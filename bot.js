@@ -10,11 +10,17 @@ client.on('message', message => {
     	message.reply('sup');
   	}
 });
+
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+    console.log('I am ready!');
 });
 
 client.on('message', message => {
-    if (message.content === 'lol') {
-    	message.reply('haha');
+    if (message.content === 'code') {
+    	message.reply('coding is hard, fam!');
   	}
 });
 
