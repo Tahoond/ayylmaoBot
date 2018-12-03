@@ -19,4 +19,13 @@ client.on('message', message => {
   	}
 });
 
+});
+
+client.on('message', message => {
+    if (message.content === 'discord') {
+    	message.reply('i am a discord bot mate');
+  	}
+});
+
+
 client.login(process.env.BOT_TOKEN);
