@@ -19,12 +19,4 @@ client.on('message', message => {
   	}
 });
 
-});
-
-client.on('message', message => {
-    if (message.content === 'donald trump') {
-    	message.reply('the man that has everything accept for a brain');
-  	}
-});
-
 client.login(process.env.BOT_TOKEN);
