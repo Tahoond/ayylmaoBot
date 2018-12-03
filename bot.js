@@ -11,15 +11,6 @@ client.on('message', message => {
   	}
 });
 
-client.on('ready', () => {
-    console.log('I am ready!');
-});
-
-client.on('message', message => {
-    if (message.content === 'code') {
-    	message.reply('coding is hard, fam!');
-  	}
-});
 
 
 client.login(process.env.BOT_TOKEN);
