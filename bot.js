@@ -6,10 +6,17 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'hello') {
+    	message.reply('sup');
   	}
 });
 
-// THIS  MUST  BE  THIS  WAY
+});
+
+client.on('message', message => {
+    if (message.content === 'code') {
+    	message.reply('find the code on my github, fam!');
+  	}
+});
+
 client.login(process.env.BOT_TOKEN);
