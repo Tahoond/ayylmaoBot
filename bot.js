@@ -22,8 +22,8 @@ client.on('message', message => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ez') {
-    	message.reply('game over');
+    if (message.content === 'donald trump') {
+    	message.reply('the man that has everything accept for a brain');
   	}
 });
 
