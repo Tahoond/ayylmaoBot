@@ -13,6 +13,9 @@ client.on('message', message => {
   	}
 });
 
+bot.on*("message, function(message) {
+    if message.author.equals(bot.user)) return;
+
 if (message.content -- "hey") {
     message.channel.sendMessage("hi");
 
