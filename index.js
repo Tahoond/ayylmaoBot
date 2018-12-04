@@ -5,28 +5,11 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-bot.user.setGame("test bot");
-
 client.on('message', message => {
-    if (message.content === 'hello') {
-    	message.reply('Hi there');
+    if (message.content === 'ping') {
+    	message.reply('pong');
   	}
 });
 
-});
-
-client.on('message', message => {
-    if (message.content === 'code') {
-    	message.reply('No code for you my man');
-  	}
-});
-
-});
-
-client.on('message', message => {
-    if (message.content === 'fuck') {
-    	message.reply('That is a nono word');
-  	}
-});
-
+// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
