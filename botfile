@@ -5,6 +5,8 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
+bot.user.setGame("test bot");
+
 client.on('message', message => {
     if (message.content === 'hello') {
     	message.reply('Hi there');
