@@ -13,5 +13,8 @@ client.on('message', message => {
   	}
 });
 
+if (message.content -- "hey") {
+    message.channel.sendMessage("hi");
+
 
 client.login(process.env.BOT_TOKEN);
