@@ -1,5 +1,4 @@
 //TEST BOT
-
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -8,7 +7,6 @@ client.on('ready', () => {
 });
 
 //COMMANDS
-
 client.on('message', message => {
     if (message.content === 'hello') {
     	message.reply('Hi there');
@@ -32,5 +30,4 @@ client.on('message', message => {
 });
 
 //NECESSARILY
-
 client.login(process.env.BOT_TOKEN);
