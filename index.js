@@ -6,19 +6,10 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'test') {
-    	message.reply('test');
-  	}
-});
-client.on('message', message => {
-    if (message.content === 'where am i') {
-    	message.reply('space, boi');
-  	}
-});
-client.on('message', message => {
-    if (message.content === 'cool') {
-    	message.reply('freezah');
+    if (message.content === 'ping') {
+    	message.reply('pong');
   	}
 });
 
+// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
