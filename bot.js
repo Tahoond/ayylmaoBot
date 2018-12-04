@@ -11,10 +11,14 @@ client.on('message', message => {
   	}
 });
 
+});
+
 client.on('message', message => {
     if (message.content === 'code') {
     	message.reply('No code for you my man');
   	}
+});
+
 });
 
 client.on('message', message => {
