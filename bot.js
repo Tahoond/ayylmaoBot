@@ -6,10 +6,17 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'hello') {
+    	message.reply('Hello there!')
   	}
 });
 
-// THIS  MUST  BE  THIS  WAY
+});
+
+client.on('message', message => {
+    if (message.content === 'pizza') {
+    	message.reply('My fav food!')
+  	}
+});
+
 client.login(process.env.BOT_TOKEN);
