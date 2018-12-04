@@ -1,6 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+bot.user.setGame("i ate too much kfc");
+
 client.on('ready', () => {
     console.log('I am ready!');
 });
