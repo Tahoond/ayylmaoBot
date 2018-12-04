@@ -1,9 +1,13 @@
+//TEST BOT
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
     console.log('I am ready!');
 });
+
+//COMMANDS
 
 client.on('message', message => {
     if (message.content === 'hello') {
@@ -26,5 +30,7 @@ client.on('message', message => {
     	message.reply('That is a nono word');
   	}
 });
+
+//NECESSARILY
 
 client.login(process.env.BOT_TOKEN);
