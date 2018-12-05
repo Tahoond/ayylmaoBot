@@ -11,5 +11,13 @@ client.on('message', message => {
     	message.reply('Hi there!');
   	}
 });
+
+});
+
+client.on('message', message => {
+    if (message.content === 'ban me') {
+    	message.reply('Ask theunemans if you want to be banned!');
+  	}
+});
 //REQUIRED
 client.login(process.env.BOT_TOKEN);
