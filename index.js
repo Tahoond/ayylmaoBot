@@ -22,6 +22,5 @@ client.on('message', message => {
     	message.reply('That's a nono word!');
   	}
 });
-
 //REQUIRED
 client.login(process.env.BOT_TOKEN);
