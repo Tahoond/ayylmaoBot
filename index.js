@@ -14,14 +14,6 @@ client.on('message', message => {
     	message.reply('Hi there!');
   	}
 });
-
-});
-
-client.on('message', message => {
-    if (message.content === 'fuck') {
-    	message.reply('That is a nono word!');
-  	}
-});
         
 //REQUIRED
 client.login(process.env.BOT_TOKEN);
