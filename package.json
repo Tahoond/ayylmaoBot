@@ -1,5 +1,6 @@
 {
   "name": "ayylmaoBot",
+  "prefix": "ayy lmao",
   "description": "ayylmaoBot",
   "version": "0.0.0",
   "main": "ayylmaoBot",
