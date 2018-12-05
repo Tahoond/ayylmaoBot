@@ -1,3 +1,4 @@
+//REQUIRED
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
@@ -10,5 +11,5 @@ client.on('message', message => {
     	message.reply('Hi there!');
   	}
 });
-
+//REQUIRED
 client.login(process.env.BOT_TOKEN);
