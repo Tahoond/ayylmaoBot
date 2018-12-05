@@ -12,8 +12,6 @@ client.on('message', message => {
   	}
 });
 
-});
-
 client.on('message', message => {
     if (message.content === 'ban me') {
     	message.reply('Ask theunemans if you want to be banned!');
