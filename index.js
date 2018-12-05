@@ -2,7 +2,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-bot.user.setActivity('Playing games')
+const prefix = "ayy lmao"
 
 client.on('ready', () => {
     console.log('I am ready!');
